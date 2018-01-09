@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>ToWatch | List of everything to watch</title>
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="main.css">
-    <script src="libs/jquery/dist/jquery.js"></script>
-    <script src="libs/underscore/underscore.js"></script>
-    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script src="libs/backbone/backbone.js"></script>
-    <script src="libs/backbone.localstorage/build/backbone.localStorage.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="main.js"></script>
 </head>
 <body>
     <div class="container myApp">
         <div class="row logo">
-            <img src="data/logo.png" alt="Logo of ToWatch" />
+            <img src="data/logo.png" alt="Logo of ToWatch" onclick="load_json()"/>
             <img src="data/banner.png" alt="Banner of ToWatch" />
         </div>
         <div class="row panels">
         </div>
         <div class="row item-list">
+        </div>
+        <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-blue w3-round-xlarge" style="width:100%">25%</div>
+          </div>
         </div>
     </div>
 </body>
