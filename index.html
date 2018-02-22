@@ -7,23 +7,42 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="container myApp">
-        <div class="row logo">
-            <img src="data/logo.png" alt="Logo of ToWatch" onclick="load_json()"/>
-            <img src="data/banner.png" alt="Banner of ToWatch" />
-        </div>
-        <div class="row panels">
-        </div>
-        <div class="row item-list">
-        </div>
-        <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-container w3-blue w3-round-xlarge" style="width:100%">25%</div>
-          </div>
-        </div>
-    </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-logo" href="#"><img src="data/logo.png" /></a>
+        </div>        
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Movies</a></li>
+              <li><a href="#">TV Shows</a></li>
+              <li><a class="btn btn-default btn-smaller" href="creator.html">Add new item</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+      </div>        
+    </nav>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<h3>Movies</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, ipsum ac porttitor accumsan, felis orci iaculis nisl, vitae pretium velit nunc id elit. <a href="#">Read More..</a></p>
+			<a href="#"class="btn btn-block">Show me Movies</a>
+		</div>
+		<div class="col-md-4">
+			<h3>TV Shows</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, ipsum ac porttitor accumsan, felis orci iaculis nisl, vitae pretium velit nunc id elit. <a href="#">Read More..</a></p>
+			<a href="http://www.disneyholidays.co.uk/" class="btn btn-block">Show me TV Shows</a>
+		</div>
+		<div class="col-md-4">
+			<h3>3rd Item</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, ipsum ac porttitor accumsan, felis orci iaculis nisl, vitae pretium velit nunc id elit. <a href="#">Read More..</a></p>
+			<a href="#" class="btn btn-block" >Do something</a>
+		</div>		
+  </div>
+</div>
+	
 </body>
 </html>

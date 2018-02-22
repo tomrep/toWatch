@@ -1,60 +1,49 @@
+.navbar-logo {
+    float: left;
+    padding: 2px 2px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-logo img {
+    height: 100%;
+    display: block;
+}
+.btn-smaller {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-top: 5px;
+}
 body {
-    background-image: url('data/wood.jpg');
+    background-image: url(data/background.jpg);
 }
-.logo {
+.col-md-4 > p {
+    background:#fff2e6;
+    margin-top:0px;
+    padding:10px;
 }
-.logo img {
-    display: inline;
-    height: 100px;
-    margin-right: 50px;
+.col-md-4 > h3 {
+    background:#fff2e6;
+    margin-top:0px;
+    padding:10px;
+    font-weight:900;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    border-top:2px solid #ffb443;
+    font-family:open;
+    text-align: center;
 }
-.panels {
-    margin-top: 250px;
+.col-md-4 {
+    margin-top: 300px;
 }
-.panel {
-    display: inline-block;
-    width: 300px;
-    border: none;
-    margin: 30px;
+.col-md-4 > a {
+    background:#ffb443;
+    color:#fc7e17;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    text-shadow: -0.2px 0 #ffb56f, 0 0.2px #ffb56f, 0.2px 0 #ffb56f, 0 -0.2px #ffb56f;
 }
-.banner a {
-    display: inline-block;
-}
-.panel-heading:hover {
-    cursor: hand;
-    cursor: pointer;
-}
-.panel-body {
-    height: 100px;
-    display: table-cell;
-    vertical-align: middle;
-}
-.panel-heading {
-    color: white;
-    font-weight: bold;
-}
-.movie-panel .panel-heading{
-    background-color: darkblue;
- }
-.movie-panel .panel-body {
-    background-color: lightblue;
-}
-.add-panel .panel-heading{
-    background-color: darkgreen;
-}
-.add-panel .panel-body {
-    background-color: lightgreen;
-}
-.series-panel .panel-heading{
-    background-color: darkred;
-}
-.series-panel .panel-body {
-    background-color: lightcoral;
-}
-.item-list {
-    background-color: navajowhite;
-}
-.item-list p {
-    padding-left: 5px;
-    display: inline;
+.start-form {
+    margin-top: 200px;
 }
